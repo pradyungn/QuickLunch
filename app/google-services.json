@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "661208992808",
+    "firebase_url": "https://quik-lunch.firebaseio.com",
+    "project_id": "quik-lunch",
+    "storage_bucket": "quik-lunch.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661208992808:android:def6f4a2b412eeb2",
+        "android_client_info": {
+          "package_name": "com.lancer.quicklunch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "661208992808-j54g3gmke95623h5b3o4mm092temdtpj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjYl3YSdQQ2JnMt6F_FmOTN-RjBoUZWMA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
