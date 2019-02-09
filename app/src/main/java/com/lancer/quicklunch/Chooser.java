@@ -18,6 +18,15 @@ public class Chooser extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                startActivity(new Intent(Chooser.this, StudentMenu.class));
+            }
+        });
+
+        Button btn1 = (Button)findViewById(R.id.button5);
+
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
                 startActivity(new Intent(Chooser.this, SchoolNewMenu.class));
             }
         });
