@@ -13,6 +13,7 @@
     tools:context=".Login">
 
     <!-- Login progress -->
+
     <ProgressBar
         android:id="@+id/login_progress"
         style="?android:attr/progressBarStyleLarge"
@@ -21,16 +22,10 @@
         android:layout_marginBottom="8dp"
         android:visibility="gone" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="307dp"
-        android:layout_height="244dp"
-        app:srcCompat="@drawable/logo_vector" />
-
     <ScrollView
         android:id="@+id/login_form"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="216dp">
 
         <LinearLayout
             android:id="@+id/email_login_form"
@@ -82,4 +77,10 @@
 
         </LinearLayout>
     </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="307dp"
+        android:layout_height="244dp"
+        app:srcCompat="@drawable/logo_vector" />
 </LinearLayout>
