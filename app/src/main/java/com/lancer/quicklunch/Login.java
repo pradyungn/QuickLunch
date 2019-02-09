@@ -29,8 +29,13 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+
 import java.util.ArrayList;
 import java.util.List;
+
+import android.widget.Button;
+import android.view.View;
+import android.content.Intent;
 
 import static android.Manifest.permission.READ_CONTACTS;
 
@@ -82,11 +87,12 @@ public class Login extends AppCompatActivity implements LoaderCallbacks<Cursor> 
             }
         });
 
-        Button mEmailSignInButton = (Button) findViewById(R.id.email_sign_in_button);
+        Button mEmailSignInButton = (Button) findViewById(R.id.Button);
         mEmailSignInButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
                 attemptLogin();
+                startActivity(new Intent(Login.this, Chooser.class));
             }
         });
 
@@ -345,6 +351,9 @@ public class Login extends AppCompatActivity implements LoaderCallbacks<Cursor> 
             mAuthTask = null;
             showProgress(false);
         }
+
     }
+
+
 }
 
