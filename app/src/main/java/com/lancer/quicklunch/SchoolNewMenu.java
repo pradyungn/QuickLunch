@@ -10,13 +10,11 @@ import android.widget.TableRow;
 
 public class SchoolNewMenu extends AppCompatActivity {
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_school_new_menu);
-        Button btn = (Button)findViewById(R.id.button3);
+        Button btn = (Button)findViewById(R.id.publish);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -30,7 +28,7 @@ public class SchoolNewMenu extends AppCompatActivity {
         TableRow tr = new TableRow(this);
         tr.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.FILL_PARENT, TableRow.LayoutParams.WRAP_CONTENT));
         /* Create a Button to be the row-content. */
-        Button b = new Button(this);
+        Button b = (Button)findViewById(R.id.newRow);
         b.setText("Dynamic Button");
         b.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.FILL_PARENT, TableRow.LayoutParams.WRAP_CONTENT));
         /* Add Button to row. */
