@@ -13,14 +13,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SchoolLiveMenu"></activity>
+        <activity
+            android:name=".SchoolNewMenuDos"
+            android:label="@string/title_activity_school_new_menu_dos"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".SchoolLiveMenu" />
         <activity android:name=".SchoolNewMenu" />
         <activity android:name=".StudentCheckout" />
         <activity android:name=".StudentMenu" />
-        <activity android:name=".Chooser" android:label="@string/app_name"/>
-        <activity android:name=".Login" android:label="@string/app_name">
+        <activity
+            android:name=".Chooser"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
