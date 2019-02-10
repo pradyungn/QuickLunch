@@ -20,5 +20,6 @@ public class StudentMenu extends AppCompatActivity {
                 startActivity(new Intent(StudentMenu.this, StudentCheckout.class));
             }
         });
+
     }
 }
