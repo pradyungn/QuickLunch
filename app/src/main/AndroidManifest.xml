@@ -18,7 +18,7 @@
         <activity android:name=".StudentCheckout" />
         <activity android:name=".StudentMenu" />
         <activity android:name=".Chooser" android:label="@string/app_name"/>
-        <activity android:name=".Login" android:label="@string/title_activity_login">
+        <activity android:name=".Login" android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
