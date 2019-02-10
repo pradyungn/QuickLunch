@@ -18,7 +18,7 @@ public class Chooser extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Chooser.this, StudentMenu.class));
+                startActivity(new Intent(Chooser.this, SchoolNewMenu.class));
             }
         });
 
@@ -27,7 +27,7 @@ public class Chooser extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Chooser.this, SchoolNewMenu.class));
+                startActivity(new Intent(Chooser.this, StudentMenu.class));
             }
         });
 
